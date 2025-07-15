@@ -1,2 +1,2 @@
-# Java Basic Practice 
+# Java Basic Practice
 
