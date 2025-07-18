@@ -1,4 +1,4 @@
-
+/* 
 // WAP to check whether in number is even or odd ?
 public class A {
     public static void main (String[]args)
@@ -29,6 +29,18 @@ public class A {
 		}
 	}
  }
+*/
+
+ class Test {
+    public static void main(String[] args) {
+        int a = 5, b = 10;
+        if (a > b)
+            if (a > 0)
+                System.out.println("A");
+         
+                System.out.println("B");
+    }
+}
 
 
 
