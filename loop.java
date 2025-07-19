@@ -11,7 +11,7 @@
 
 
 //print 1 to 10 
- class Loop {
+ class Loop1 {
     public static void main(String[] args) {
        for (int i =1; i<=10; i++)
        {
@@ -22,7 +22,7 @@
 
 
 // print the even number in between 1-10
-class Loop {
+class Loop2 {
     public static void main(String[] args) {
        for (int i=1; i<=10; i++)
        {
@@ -38,7 +38,7 @@ class Loop {
 
 
 // print 10-1 
- class Loop {
+ class Loop3 {
     public static void main(String[] args) {
        for (int i=10; i>=1; i--)
        {
@@ -51,7 +51,7 @@ class Loop {
 
 
 // WAP to count the digit of a number 
- class Loop {
+ class Loop4 {
     public static void main(String[] args) {
 		int count =0;
        for (int num=2345; num>0; num=num/10)
@@ -69,7 +69,7 @@ class Loop {
 
 // WAP to count the digit of a number using user input 
  import java.util.Scanner;
- class Loop {
+ class Loop5 {
     public static void main(String[] args) {
 		Scanner Sc = new Scanner(System.in);
 		System.out.println("enter a numbers");
@@ -84,9 +84,10 @@ class Loop {
     }
  }
 
-Wap to count the each digit of a number .
 
-class Loop {
+
+// Wap to count the each digit of a number .
+class Loop6 {
     public static void main(String[] args) {
 	
 		int sum =0;
@@ -104,8 +105,9 @@ class Loop {
 
 
 // WAP to count the each digit of a number using user input ?
+
  import java.util.Scanner;
- class Loop {
+ class Loop7 {
     public static void main(String[] args) {
 		Scanner Sc = new Scanner(System.in);
 		System.out.println("enter a numbers");
@@ -125,7 +127,7 @@ class Loop {
 
 
 // WAp to calucalte the product 
-class Loop {
+class Loop8 {
     public static void main(String[] args) {
 	
 		int pro =1;
@@ -143,7 +145,7 @@ class Loop {
 
 
 // WAP to cjeck the number is either a prime number or not ?
-class Loop {
+class Loop9 {
     public static void main(String[] args) {
 	
 		int num =5;
