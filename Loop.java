@@ -1,72 +1,61 @@
-public class Main {
+public class Loop{
     public static void main(String[] args) {
         System.out.println("Main class running");
     }
 }
 
 // print "hii" 3 times 
-  class Loop {
+class Loop0 {
     public static void main(String[] args) {
-       for(int i=1; i<=3; i++)
-       {
-		   System.out.println("hii");
-       }
+        for (int i = 1; i <= 3; i++) {
+            System.out.println("hii");
+        }
     }
 }
 
-
-//print 1 to 10 
- class Loop1 {
+// print 1 to 10 
+class Loop1 {
     public static void main(String[] args) {
-       for (int i =1; i<=10; i++)
-       {
-		   System.out.println(i);
-       }
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i);
+        }
     }
 }
 
-
-// print the even number in between 1-10
+// print even numbers between 1 and 10
 class Loop2 {
     public static void main(String[] args) {
-       for (int i=1; i<=10; i++)
-       {
-		   if (i%2==0)
-		   {
-		   System.out.println(i);
-           }
-	  }
+        for (int i = 1; i <= 10; i++) {
+            if (i % 2 == 0) {
+                System.out.println(i);
+            }
+        }
     }
- }
+}
 
-
-
-
-// print 10-1 
- class Loop3 {
+// print 10 to 1 
+class Loop3 {
     public static void main(String[] args) {
-       for (int i=10; i>=1; i--)
-       {
-		  
-		   System.out.println(i);
-           
-	  }
+        for (int i = 10; i >= 1; i--) {
+            System.out.println(i);
+        }
     }
- }
+}
 
-
-// WAP to count the digit of a number 
- class Loop4 {
+// Count the digits of a number 
+class Loop4 {
     public static void main(String[] args) {
-		int count =0;
-       for (int num=2345; num>0; num=num/10)
-       {
-		  count ++;
+        int count = 0;
+        int num = 2345;
 
-	  }
-	  System.out.println(count);
+        while (num > 0) {
+            count++;
+            num = num / 10;
+        }
+
+        System.out.println("Number of digits: " + count);
     }
- } 
+}
 
 
 
