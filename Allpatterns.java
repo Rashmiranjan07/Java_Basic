@@ -285,7 +285,6 @@ class Pattern10
 		{
 			for(int j=0; j<n; j++)
 			{
-				//if(i>=j && i+j>=n-1)
 				if(i+j<=n-1 && i<=j)
 					System.out.print("*");
 				else
@@ -306,7 +305,7 @@ class Pattern10
 //   *****
 //    ***
 //     *
-//    **
+//    ***
 //   ****
 //  ******
 // ********
