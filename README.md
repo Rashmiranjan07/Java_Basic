@@ -10,7 +10,7 @@ Click on any pattern to view its source code:
 
 | Pattern No. | Description                      | View Code |
 |-------------|----------------------------------|-----------|
-| Pattern 1   | Solid square of stars            | [View](./Pattern1.java) |
+| Pattern 1   | Solid square of stars            | [View](Allpatterns./Pattern1.java) |
 | Pattern 2   | User input square of stars       | [View](./Pattern2.java) |
 | Pattern 3   | Left-aligned triangle            | [View](./Pattern3.java) |
 | Pattern 4   | Right-aligned triangle           | [View](./Pattern4.java) |
