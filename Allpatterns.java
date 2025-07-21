@@ -237,10 +237,11 @@ class Pattern8
 
 // print the pattern
 
-// *
-// ***
-// *****
-// *******
+
+//     *
+//    ***
+//   *****
+//  *******
 // *********
 class Pattern9
 {
@@ -256,7 +257,7 @@ class Pattern9
 				if(i>=j && i+j>=n-1)
 					System.out.print("*");
 				else
-				System.out.print("");
+				System.out.print(" ");
 			}
 			System.out.println( );
 		}
@@ -287,7 +288,7 @@ class Pattern10
 				if(i+j<=n-1 && i<=j)
 					System.out.print("*");
 				else
-				System.out.print("");
+				System.out.print(" ");
 			}
 			System.out.println( );
 		}
