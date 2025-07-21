@@ -266,6 +266,7 @@ class Pattern9
 }
 
 
+
 // print this pattern 
 // *********
 //  *******
@@ -296,8 +297,10 @@ class Pattern10
 			
 }
 
-//Print the pattern 
 
+
+
+//Print the pattern 
 // *********
 //  *******
 //   *****
@@ -307,8 +310,6 @@ class Pattern10
 //   ****
 //  ******
 // ********
-
-
 class Pattern11
 {
 	public static void main (String[]args)
@@ -322,6 +323,202 @@ class Pattern11
 			{
 				
 				if((i+j<=n-1 && i<=j)||(i>j && i+j>=n-1))
+					System.out.print("*");
+				else
+				System.out.print(" ");
+			}
+			System.out.println( );
+		}
+	}
+			
+}
+
+
+
+
+// print the pattern
+// *
+// **
+// ***
+// ****
+// *****
+// ****
+// ***
+// **
+// *
+
+
+class Pattern12
+{
+	public static void main (String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the value of n");
+		int n= sc.nextInt();
+		for(int i=0; i<n; i++)			
+		{
+			for(int j=0; j<n; j++) 
+			{
+				
+				if(i>=j && i+j<=n-1)
+					System.out.print("*");
+				else
+				System.out.print(" ");
+			}
+			System.out.println( );
+		}
+	}
+			
+}
+
+
+
+//Print the pattern
+//         *
+//        **
+//       ***
+//      ****
+//     *****
+//      ****
+//       ***
+//        **
+//         *
+
+
+class Pattern13
+{
+	public static void main (String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the value of n");
+		int n= sc.nextInt();
+		for(int i=0; i<n; i++)			
+		{
+			for(int j=0; j<n; j++) 
+			{
+				
+				if(i<=j && i+j>=n-1)
+					System.out.print("*");
+				else
+				System.out.print(" ");
+			}
+			System.out.println( );
+		}
+	}
+			
+}
+
+
+
+
+//Print the pattern
+// *       *
+// **     **
+// ***   ***
+// **** ****
+// *********
+// **** ****
+// ***   ***
+// **     **
+// *       *
+
+
+class Pattern14
+{
+	public static void main (String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the value of n");
+		int n= sc.nextInt();
+		for(int i=0; i<n; i++)			
+		{
+			for(int j=0; j<n; j++) 
+			{
+				
+				if((i>=j && i+j<=n-1) || (i<=j && i+j>=n-1))
+					System.out.print("*");
+				else
+				System.out.print(" ");
+			}
+			System.out.println( );
+		}
+	}
+			
+}
+
+
+//Print the pattern 
+//          *
+//         * *
+//        * * *
+//       * * * *
+//      * * * * *
+//       * * * *
+//        * * *
+//         * *
+//          *
+
+
+class Pattern15
+{
+	public static void main (String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the value of n");
+		int n= sc.nextInt();
+		for(int i=0; i<n; i++)			
+		{
+			for(int j=0; j<n; j++) 
+			{
+				
+				if(i<=j && i+j>=n-1)
+					System.out.print(" *");
+				else
+				System.out.print(" ");
+			}
+			System.out.println( );
+		}
+	}
+			
+}
+
+
+
+
+
+//Print the pattern
+// *****************
+// **      *      **
+// * *     *     * *
+// *  *    *    *  *
+// *   *   *   *   *
+// *    *  *  *    *
+// *     * * *     *
+// *      ***      *
+// *****************
+// *      ***      *
+// *     * * *     *
+// *    *  *  *    *
+// *   *   *   *   *
+// *  *    *    *  *
+// * *     *     * *
+// **      *      **
+// *****************
+
+
+class Pattern16
+{
+	public static void main (String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the value of n");
+		int n= sc.nextInt();
+		for(int i=0; i<n; i++)			
+		{
+			for(int j=0; j<n; j++) 
+			{
+				
+				if(i==0 || i==n-1 || j==0 || j==n-1 || i==n/2 || j==n/2 || i==j || i+j==n-1)
 					System.out.print("*");
 				else
 				System.out.print(" ");
