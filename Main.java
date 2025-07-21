@@ -1,5 +1,10 @@
-  
-  // print "hii" 3 times 
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Main class running");
+    }
+}
+
+// print "hii" 3 times 
   class Loop {
     public static void main(String[] args) {
        for(int i=1; i<=3; i++)
@@ -61,7 +66,7 @@ class Loop2 {
 	  }
 	  System.out.println(count);
     }
- }
+ } 
 
 
 
@@ -106,7 +111,7 @@ class Loop6 {
 
 // WAP to count the each digit of a number using user input ?
 
- import java.util.Scanner;
+ //import java.util.Scanner;
  class Loop7 {
     public static void main(String[] args) {
 		Scanner Sc = new Scanner(System.in);
