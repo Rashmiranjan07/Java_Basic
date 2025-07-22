@@ -1,4 +1,4 @@
-// Creating A-z by Pattern programming
+// Creating A-Z by Pattern programming
 import java.util.Scanner;
 
 
