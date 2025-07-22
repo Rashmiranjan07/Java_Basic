@@ -367,7 +367,6 @@ class Pattern12
 			System.out.println( );
 		}
 	}
-			
 }
 
 
@@ -403,8 +402,7 @@ class Pattern13
 			}
 			System.out.println( );
 		}
-	}
-			
+	}		
 }
 
 
@@ -442,7 +440,6 @@ class Pattern14
 			System.out.println( );
 		}
 	}
-			
 }
 
 
@@ -478,7 +475,6 @@ class Pattern15
 			System.out.println( );
 		}
 	}
-			
 }
 
 
@@ -525,7 +521,6 @@ class Pattern16
 			System.out.println( );
 		}
 	}
-			
 }
 
 
@@ -583,7 +578,7 @@ class Pattern18
 			for(int j=0; j<n; j++) 
 			{
 				
-				if(j==0 || i==0|| j==n/2 || i==n/2)
+				if(j==0 || j==n/2 || i==0 && j<=n/2|| i==n/2 && j<=n/2)
 					System.out.print("*");
 				else
 				System.out.print(" ");
