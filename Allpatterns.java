@@ -712,3 +712,36 @@ class Pattern21
 	}
 					
 }
+
+
+// Java Program to print pattern
+// Square hollow pattern
+
+class Pattern22 {
+    
+    // Function to demonstrate pattern
+   public static void main(String[]args)
+    {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the value of n");
+		int n= sc.nextInt();
+        int i, j;
+        
+        // outer loop to handle number of rows
+        for (i = 1; i <= n; i++) {
+            
+            // inner loop to print space
+            for (j = 1; j <= n - i; j++) {
+                System.out.print(" ");
+            }
+            
+            // inner loop to print star
+            for (j = 1; j <= i; j++) {
+                System.out.print(i + " ");
+            }
+            
+            // print new line for each row
+            System.out.println();
+        }
+    }
+}
