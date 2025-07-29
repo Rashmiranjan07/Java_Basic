@@ -316,8 +316,7 @@ class L
 			}
 			System.out.println( );
 		}
-	}
-					
+	}					
 }
 
 
@@ -431,12 +430,6 @@ class P
 
 
 
-
-
-
-
-
-
 // print "R"
 class R
 {
@@ -463,8 +456,6 @@ class R
 
 
 
-
-
 // Print "S"
 class S
 {
@@ -488,7 +479,6 @@ class S
 	}
 					
 }
-
 
 
 
@@ -541,8 +531,6 @@ class U
 	}
 					
 }
-
-
 
 
 //Print "v"
@@ -621,7 +609,6 @@ class X
 }
 
 
-
 //Print "Y"
 class Y
 {
@@ -645,7 +632,6 @@ class Y
 	}
 					
 }
-
 
 
 //Print "Z"
