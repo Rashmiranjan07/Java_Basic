@@ -44,10 +44,10 @@ class Test1{
 // In method overloading if we are using multiiple method and while calling if the value is matched vertically both of the data type , then the priority goes to always int type (in the case integral value int/byte/short/long) & after we will do downcasting as well as usecase .
 
 class Test2{
-    public static void m1(int x) {
+    public void m1(int x) {
         System.out.println("abc");
     }
-     public static void m1(byte b) {
+     public void m1(byte b) {
         System.out.println("def");
     }
     public static void main(String[] args) {
@@ -60,10 +60,10 @@ class Test2{
 
 
 class Test3{
-    public static void m1(short x) {
+    public  void m1(short x) {
         System.out.println("abc");
     }
-     public static void m1(byte b) {
+     public void m1(byte b) {
         System.out.println("def");
     }
     public static void main(String[] args) {
@@ -75,7 +75,22 @@ class Test3{
 }
 
 
+// if the argument are getting matched with the non-primitive value then JVM will checked whether there is a parent -child relation or not . if there is a relation then the priority goes to "child class".
 
+class Test4{
+    public static void m2(Object o) {
+        System.out.println("abc");
+    }
+     public static void m2(String s) {
+        System.out.println("def");
+    }
+    public static void main(String[] args) {
+        Test4 t1=new Test4();
+        t1.m2(null); // def (priority goes to child class)
+        t1.m2((new Object())); //abc (downcast)
+        t1.m2((new String())); // def (downcaast)
+    }
+}
 
 
 
