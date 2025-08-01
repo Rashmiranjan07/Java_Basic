@@ -10,4 +10,4 @@ No fancy structure. No perfect code. Just raw, hands-on Java practice:
 
 🧪 Tiny side quests from tutorials or docs
 
-Whenever I study something new, I jump into code and push it here — kind of like a learning journal but in Java syntax 😄
+Whenever I study something new, I jump into code and push it here — kind of like a learning journal but in Java syntax 😄.
