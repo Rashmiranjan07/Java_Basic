@@ -38,3 +38,44 @@ class Test1{
 
     }
 }
+
+
+
+// In method overloading if we are using multiiple method and while calling if the value is matched vertically both of the data type , then the priority goes to always int type (in the case integral value int/byte/short/long) & after we will do downcasting as well as usecase .
+
+class Test2{
+    public static void m1(int x) {
+        System.out.println("abc");
+    }
+     public static void m1(byte b) {
+        System.out.println("def");
+    }
+    public static void main(String[] args) {
+        Test2 t1=new Test2();
+        t1.m1(10); // abc
+        t1.m1((byte)10); //def
+    }
+}
+
+
+
+class Test3{
+    public static void m1(short x) {
+        System.out.println("abc");
+    }
+     public static void m1(byte b) {
+        System.out.println("def");
+    }
+    public static void main(String[] args) {
+        Test3 t1=new Test3();
+       // t1.m1(10); // ce
+        t1.m1((short)10); //abc (downcast)
+        t1.m1((byte)10); // def (downcaast)
+    }
+}
+
+
+
+
+
+
