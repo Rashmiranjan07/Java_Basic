@@ -93,4 +93,18 @@ class Test4{
 }
 
 
-
+// example -2 
+class Test5 {
+    public void m3(Test t)
+    {
+        System.out.println("abc");
+    }
+    public void m3(Object o)
+    {
+        System.out.println("def");
+    }
+    public static void main(String[] args) {
+        Test t2=new Test();
+      //  t2.m3(null); // ce:- there is no realationship between both argument 
+    }
+}
