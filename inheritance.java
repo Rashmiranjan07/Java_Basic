@@ -121,3 +121,30 @@ class Subham {
 
 // hybrid inheritance :-it is the combination of single inheritance,multilevel inheritance,multiple inheritance,hierachical inheritance,hybrid inheritance .
 // it is also nopt supportedd in java bcoz of multiple inheritannce .
+
+
+
+
+// N.B:- we can not access static method inside a main method directly whilw calling it another class .
+class Z {
+    public static void m1()
+    {
+        System.out.println("one");
+    }
+}
+
+class X {
+     public static void m2()
+    {
+        System.out.println("Two");
+    }
+}
+
+class TestZ {
+     public static void main(String[]args)
+    {
+       
+      // m1(); // cannot possible
+      // m2(); // can not possible 
+    }
+}
