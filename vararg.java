@@ -9,23 +9,48 @@ class Va {
         v1.m1(); // no argument
         v1.m1(10); // one argument
         v1.m1(10, 20, 30); // multiple argument
-        v1.m1('a'); // upcasting 
-        v1.m1((int) 10.4); //downcasting
+        v1.m1('a'); // upcasting
+        v1.m1((int) 10.4); // downcasting
+    }
+}
+
+// In non-primitive type
+// exception case
+class Exc {
+    public void m1(int... x) {
+        System.out.println(x);
+    }
+
+    public static void main(String[] args) {
+        Exc a1 = new Exc();
+        a1.m1(10, 20, 30); // [I@4517d9a3
+    }
+}
+
+// ex-2
+class Rupu {
+    public void m2(int... x) {
+        System.out.println(x[0]);
+        System.out.println(x[1]);
+        System.out.println(x[2]);
+    }
+
+    public static void main(String[] args) {
+        Rupu r1 = new Rupu();
+        r1.m2(10, 20, 30);
     }
 }
 
 
-
-// In non-primitive type 
-// exception case 
-class Exc{
-    public void m1(int...x)
-    {
-        System.out.println(x);
-    }
-    public static void main(String[]args)
-    {
-       Exc a1=new Exc();
-       a1.m1(10,20,30); // [I@4517d9a3
-    }
+//ex-3
+class Rupu1 {
+     public void m2(int... x) {
+        for(int i=0; i<=x.length-1; i++) {
+            System.out.println(x[i]);
+        }
+     }
+     public static void main(String[] args) {
+        Rupu1 r2=new Rupu1();
+        r2.m2(10,20,30);
+     }
 }
