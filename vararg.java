@@ -54,3 +54,19 @@ class Rupu1 {
         r2.m2(10,20,30);
      }
 }
+
+//ex-3
+class Rupu2 {
+     public void m2(boolean...b) {
+        for(int i=0; i<=b.length-1; i++) {
+            System.out.println(b[i]);
+        }
+     }
+     public static void main(String[] args) {
+        Rupu2 r2=new Rupu2();
+        r2.m2(true,false,false,true);
+     }
+}
+
+
+
