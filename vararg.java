@@ -124,3 +124,23 @@ public static void main(String[]args)
 	}
 }
 	
+
+// in the case 
+class Rupu6
+{
+public void m1(int...x)
+{
+ System.out.println("var-arg");
+}
+public void m1(int x)
+{
+ System.out.println("m2 method");
+}
+public static void main(String[]args)
+	{
+	Rupu6 t1=new Rupu6();
+	t1.m1(); // var-arg
+	t1.m1(10); // normal method
+	t1.m1(10,20); // var-arg
+	}
+}
