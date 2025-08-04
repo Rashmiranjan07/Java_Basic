@@ -143,7 +143,6 @@ class X {
 class TestZ {
      public static void main(String[]args)
     {
-       
       // m1(); // cannot possible
       // m2(); // can not possible 
     }
