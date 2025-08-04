@@ -28,6 +28,7 @@ class Exc {
 }
 
 // ex-2
+// if we do not know thw number of value put in the time of method call then we should go for this type and if there is the chance of that not more than we should go for this type .
 class Rupu {
     public void m2(int... x) {
         System.out.println(x[0]);
