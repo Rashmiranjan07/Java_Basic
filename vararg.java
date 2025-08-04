@@ -44,6 +44,7 @@ class Rupu {
 
 
 //ex-3
+// if there is multiple value put in the time of method calling then we should go for loop and print the as many as value in there .
 class Rupu1 {
      public void m2(int... x) {
         for(int i=0; i<=x.length-1; i++) {
