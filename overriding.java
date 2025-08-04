@@ -1,6 +1,6 @@
 // Method overriding - Changing the implemntation part of any parent class method inside the child class according to the recquirement of the child class is known as method overriding .
 
-
+// 
 
 class A {
     public void m1() {
