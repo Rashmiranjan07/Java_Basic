@@ -104,3 +104,23 @@ public static void main(String[]args)
 	}
 }
 	
+
+// for -each 
+//ex:-
+class Rupu5
+{
+public static void m1(int y, float...f)
+{
+ System.out.println(y);
+ for(float a: f)
+	{
+	 System.out.println(a);
+	}
+}
+public static void main(String[]args)
+	{
+	
+	m1(10,1.2f,1.3f,1.4f);
+	}
+}
+	
