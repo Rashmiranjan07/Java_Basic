@@ -70,5 +70,37 @@ class Rupu2 {
      }
 }
 
+// if i take two inside var-arg 
+//ex 
+class Rupu3
+{
+public static void m1(int y,float...f)
+{
+	System.out.println(y);
+	for(int i=0; i<=f.length-1; i++)
+	{
+		System.out.println(f[i]);
+}
+}
+	public static void main(String[]args)
+	{
+		m1(10,1.2f,1.3f);
+	}
+}
 
-
+// printing the null in a non-primitive type var-arg 
+class Rupu4
+{
+public static void m1(String...S)
+{
+	System.out.println(S[0]);
+	System.out.println(S[1]);
+	System.out.println(S[2]);
+	System.out.println("subham");
+}
+public static void main(String[]args)
+	{
+	m1(null,null,null);
+	}
+}
+	
