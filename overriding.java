@@ -59,3 +59,27 @@ class Test1 {
         c2.m2(); //m2-method (refrence type bcoz m2() is not an overridden method)
     }
 }
+
+// we can change the retuen type of the overridden method , by following co-varient concept 
+//---> co-varient concept id not applicable for any primitive type . 
+
+//---> it is only applicable for non-primitive type but we have to follow some certain rules .
+// i.e -> Parent class method return type must be the parent of child class method type .
+
+class Pr{
+    public Object m1()
+    {
+        return null;
+    }
+}
+class Cl extends Pr {
+    public String m1()
+    {
+        return null;
+    }
+}
+class Test5 {
+    public static void main(String[] args) {
+        
+    }
+}
