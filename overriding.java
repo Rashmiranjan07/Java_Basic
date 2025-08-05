@@ -60,6 +60,12 @@ class Test1 {
     }
 }
 
+
+
+// Co-varient concept :--
+
+
+
 // we can change the retuen type of the overridden method , by following co-varient concept 
 //---> co-varient concept id not applicable for any primitive type . 
 
