@@ -1,7 +1,5 @@
 // Method overriding - Changing the implemntation part of any parent class method inside the child class according to the recquirement of the child class is known as method overriding .
 
-// 
-
 class A {
     public void m1() {
         System.out.println("abc");
@@ -66,6 +64,7 @@ class Test1 {
 
 // we can change the retuen type of the overridden method , by following co-varient concept 
 //---> co-varient concept id not applicable for any primitive type . 
+
 
 //---> it is only applicable for non-primitive type but we have to follow some certain rules .
 // i.e -> Parent class method return type must be the parent of child class method type .
