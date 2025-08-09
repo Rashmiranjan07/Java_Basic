@@ -155,3 +155,30 @@ class Test6{
         a1.m1();
     }
 }
+
+
+// if a class is abstract then we can not instantiated or create objcet of that class .
+
+
+// abstract class can be inherited .
+
+abstract class B7{
+}
+class f4 extends B7 {
+
+}
+
+
+
+//Abstract class can have both abstract & normal method .
+abstract class c7{
+    abstract void m1();
+    public void m2(){
+        System.out.println("heyy");
+    }
+}
+class Test1_ {
+    public static void main(String[]args){
+        
+    }
+}
