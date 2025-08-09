@@ -35,3 +35,42 @@ class Test2 {
         
     }
 }
+
+
+//3.if a class is declared as final then we cannot inherit that properties of that class .
+
+// final class A3{
+
+// }
+// class B2 extends A3{
+
+// }
+// class Test3 {
+//     public static void main(String[] args) {
+        
+//     }
+// }
+
+// but final class can be inherited the properties of normal class .
+
+
+// 4. final class can contain both final & normal method 
+
+final class A4{
+    final void m1(){
+        System.out.println("hello");
+    }
+    public void m2(){
+        System.out.println("heyy");
+    }
+}
+ class Test  {
+public static void main(String[] args) {
+    
+}
+    
+}
+
+
+
+//
