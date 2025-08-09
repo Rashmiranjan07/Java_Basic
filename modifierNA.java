@@ -54,6 +54,7 @@ class Test2 {
 // but final class can be inherited the properties of normal class .
 
 
+
 // 4. final class can contain both final & normal method 
 
 final class A4{
@@ -169,7 +170,6 @@ class f4 extends B7 {
 }
 
 
-
 //Abstract class can have both abstract & normal method .
 abstract class c7{
     abstract void m1();
@@ -179,6 +179,6 @@ abstract class c7{
 }
 class Test1_ {
     public static void main(String[]args){
-        
+
     }
 }
