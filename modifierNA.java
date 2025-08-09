@@ -97,3 +97,61 @@ public static void main(String[] args) {
 }
 
 //6. final class can be instantiated (can create an objrct ).
+
+
+
+
+// abstract :--
+// (only appplicable for method & class )
+
+// 1. if a method is abstract then we cannot provide the implementation part to that method .
+
+// class A6 {
+//     abstract void m1(){
+//         System.out.println("hii");
+//     }
+// }
+
+// not corerct 
+
+abstract class A7 {
+    abstract void m1();
+}
+class Test7 {
+public static void main(String[] args) {
+    
+}
+}
+
+
+
+//2. if a method is declared as abstract then it is mandatory to declare the class is abstract .
+abstract class A8 {
+    abstract void m1();
+}
+class Test8 {
+public static void main(String[] args) {
+    
+}
+}
+
+
+
+//if we want to provide the implementaion part to any abstract method then we have to override it .
+abstract class A9 {
+    abstract void m1();
+}
+class B4 extends A9 {
+public void m1(){
+    System.out.println("hii");
+}
+}
+class Test6{
+    public static void main(String[]args){
+        B4 b1 =new B4();
+        b1.m1();
+
+        A9 a1=new B4();
+        a1.m1();
+    }
+}
