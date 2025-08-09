@@ -73,4 +73,27 @@ public static void main(String[] args) {
 
 
 
-//
+//5.if a class is declared as final then all the merhods present inside the class behaves as final methods . it means we can not override that method .
+
+final class A5{
+    final void m1(){
+        System.out.println("hello");
+    }
+    public void m2(){
+        System.out.println("heyy");
+    }
+}
+// class B5 extends A5{
+   
+//     public void m2(){
+//         System.out.println("hello");
+//     }
+// }
+ class Test5  {
+public static void main(String[] args) {
+    
+}
+    
+}
+
+//6. final class can be instantiated (can create an objrct ).
