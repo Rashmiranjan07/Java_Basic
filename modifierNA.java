@@ -182,3 +182,7 @@ class Test1_ {
 
     }
 }
+
+
+
+// // Static method 
