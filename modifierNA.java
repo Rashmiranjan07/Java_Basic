@@ -209,3 +209,55 @@ class Test9 {
 
     }
 }
+
+
+
+
+// we can change the modifier of any overriden method but the scope of the modifier must be increased from parent to child.
+//ex:-
+
+class R1 {
+    protected void m1(){
+        System.out.println("heyy");
+    }
+}
+class R2 extends R1{
+    public void m1(){
+        System.out.println("hii");
+    }
+}
+class R3 {
+    public static void main(String[] args) {
+        R1 r=new R1();
+        r.m1();
+
+        R2 r2=new R2();
+        r2.m1();
+    }
+}
+
+
+
+//Static non-acess modifier  
+// It is a modifier which is applicable for method &variables but not for any classes .
+//ex:-
+
+class R4 {
+    public static void m1() {
+        System.out.println("heyy");
+    }
+}
+class R5 extends R4 {
+    public static void m1() {
+        System.out.println("hello");
+    }
+}
+class R6 {
+    public static void main(String[] args) {
+        R4.m1();
+        R5.m1();
+    }
+}
+
+// 
+
