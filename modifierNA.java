@@ -198,11 +198,11 @@ class D3 extends D2 {
 
 class Test9 {
     public static void main(String[] args) {
-        D2 d1 = new D2();
-        d1.m9();
+        //D2 d1 = new D2();
+        D2.m9();
 
-        D3 d2=new D3();
-        d2.m9();
+        //D3 d2=new D3();
+        D3.m9();
 
         D2 d3 = new D2();
         d3.m9();
