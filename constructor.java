@@ -63,3 +63,45 @@ class Test4 {
 }
 //In the case within a class one constructor & a method is present . At the time of object creation "constructor" called and at the time of method calling "method " is caalled ..
 
+
+
+
+// rule -2 
+// All the acess modifier are allowed for the constructor , but non -acess modifier are not allowed 
+class Test5{
+    public Test5() {
+        System.out.println("constructor");
+    }
+    public static void main(String[] args) {
+        Test5 t1=new Test5();
+    }
+}
+
+
+class Test6{
+    private Test6() {
+        System.out.println("constructor");
+    }
+    public static void main(String[] args) {
+        Test6 t1=new Test6();
+    }
+}
+
+
+class Test7{
+     Test7() {
+        System.out.println("constructor");
+    }
+    public static void main(String[] args) {
+        Test7 t1=new Test7();
+    }
+}
+
+class Test8{
+    private Test8() {
+        System.out.println("constructor");
+    }
+    public static void main(String[] args) {
+        Test8 t1=new Test8();
+    }
+}
