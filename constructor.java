@@ -10,3 +10,19 @@ class C1 {
     }
 }
 
+
+
+
+// rules :---
+class Test1 {
+    Test1(){
+        System.out.println("constructor");
+    }
+    public static void main(String[] args) {
+        Test1 t1=new Test1();
+    }
+}
+// without any return type we can call a constructor & it excuted at the time of object creation .
+
+
+
