@@ -25,4 +25,12 @@ class Test1 {
 // without any return type we can call a constructor & it excuted at the time of object creation .
 
 
-
+class Test2 {
+    void Test2(){
+        System.out.println("constructor"); // blank space 
+    }
+    public static void main(String[] args) {
+        Test2 t1=new Test2();
+    }
+}
+// When we give the return type to the constructor , it become a method & at the time of object creation , no-method is being excuted Therefore ...
