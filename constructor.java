@@ -34,3 +34,32 @@ class Test2 {
     }
 }
 // When we give the return type to the constructor , it become a method & at the time of object creation , no-method is being excuted Therefore ...
+
+
+
+class Test3 {
+    void Test3(){
+        System.out.println("constructor"); // blank space 
+    }
+    public static void main(String[] args) {
+        Test3 t1=new Test3();
+        t1.Test3();
+    }
+}
+// When we give the return statement to a constructor it become method & it excuted after method calling 
+
+
+class Test4 {
+    Test4 () {
+        System.out.println("constructor");
+    }
+    void Test4(){
+        System.out.println("method"); // blank space 
+    }
+    public static void main(String[] args) {
+        Test4 t1=new Test4(); // constructor
+        t1.Test4(); // method 
+    }
+}
+//In the case within a class one constructor & a method is present . At the time of object creation "constructor" called and at the time of method calling "method " is caalled ..
+
