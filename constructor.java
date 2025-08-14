@@ -113,6 +113,7 @@ class Test8{
 
 
 // constructor overloading :- 
+// creating multiple type of constructor with same constructor name and different type of argument is known as constructor overloaading . 
 class Test9 {
     Test9(int x)
     {
@@ -131,7 +132,7 @@ class Test9 {
 
 // constructor chaining :-
 // this () 
-
+// it is used to call the present class constructor .
 class Test10 {
     Test10(int x) {
         this ("non");
@@ -164,7 +165,7 @@ class Test11 {
 
 
 // super ()
-
+// it is used to call the parent class constructor 
 class Demo {
     Demo() {
        
