@@ -105,3 +105,6 @@ class Test8{
         Test8 t1=new Test8();
     }
 }
+
+
+// Default constructor :-\
