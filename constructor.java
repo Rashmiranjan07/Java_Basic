@@ -114,6 +114,9 @@ class Test8 {
 // compiler when there is no user friendly constructor present inside the
 // constructor .
 
+// I) there is only one statemenyt present inside the default con structor ie call to super (Super(); )
+// ii)The default constructor always be non parameterized type .
+
 // constructor overloading :-
 // creating multiple type of constructor with same constructor name and
 // different type of argument is known as constructor overloaading .
