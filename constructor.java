@@ -190,3 +190,38 @@ class Test extends Demo {
         Test t1 = new Test();
     }
 }
+
+
+// rules to using constructor caller :--
+// 1. if we want to use this()  & super()  inside any constructor  then we must have to write as the first statement inside the constructor .
+
+// class Test12{
+//     Test12(){
+//         this();
+//         System.out.println("abc");
+//     }
+//     public static void main(String[] args) {
+//         Test12 t1=new Test12();
+//     }
+// }
+
+
+//2.we can not use both this() & super() inside any constructor 
+
+//3. If we are not provinding any constructor caller inside a constructor & by defaultly super() as its 1st statement .
+
+class Test12 {
+Test12(){
+    System.out.println("Parent");
+}
+}
+
+class Test13 extends Test12 {
+    Test13() {
+        System.out.println("child");
+    }
+
+    public static void main(String[] args) {
+        Test13 t1=new Test13();
+    }
+}
