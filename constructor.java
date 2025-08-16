@@ -239,3 +239,5 @@ class Test15 extends Test14 {
         Test15 t1 =new Test15();
     }
 } 
+
+// The constructor caller is must be used inside the constructor .
