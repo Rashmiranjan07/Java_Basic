@@ -263,7 +263,7 @@ class Test17 extends Test16 {
         System.out.println("mno");
     }
      Test17(boolean b) {
-        super(10)
+        super(10);
         System.out.println("jkl");
     }
     public static void main(String[] args) {
@@ -273,3 +273,4 @@ class Test17 extends Test16 {
     }
 
 }
+
