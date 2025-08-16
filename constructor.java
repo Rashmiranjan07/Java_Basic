@@ -225,3 +225,17 @@ class Test13 extends Test12 {
         Test13 t1=new Test13();
     }
 }
+
+
+//4. when there is no userdefined constructor then there is a default constructor present & inside that super() is present .
+
+class Test14 {
+    Test14(){
+        System.out.println("abc");
+    }
+}
+class Test15 extends Test14 {
+    public static void main(String[] args) {
+        Test15 t1 =new Test15();
+    }
+} 
