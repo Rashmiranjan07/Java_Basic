@@ -114,7 +114,8 @@ class Test8 {
 // compiler when there is no user friendly constructor present inside the
 // constructor .
 
-// I) there is only one statemenyt present inside the default con structor ie call to super (Super(); )
+// I) there is only one statemenyt present inside the default con structor ie
+// call to super (Super(); )
 // ii)The default constructor always be non parameterized type .
 
 // constructor overloading :-
@@ -191,29 +192,29 @@ class Test extends Demo {
     }
 }
 
-
 // rules to using constructor caller :--
-// 1. if we want to use this()  & super()  inside any constructor  then we must have to write as the first statement inside the constructor .
+// 1. if we want to use this() & super() inside any constructor then we must
+// have to write as the first statement inside the constructor .
 
 // class Test12{
-//     Test12(){
-//         this();
-//         System.out.println("abc");
-//     }
-//     public static void main(String[] args) {
-//         Test12 t1=new Test12();
-//     }
+// Test12(){
+// this();
+// System.out.println("abc");
+// }
+// public static void main(String[] args) {
+// Test12 t1=new Test12();
+// }
 // }
 
+// 2.we can not use both this() & super() inside any constructor
 
-//2.we can not use both this() & super() inside any constructor 
-
-//3. If we are not provinding any constructor caller inside a constructor & by defaultly super() as its 1st statement .
+// 3. If we are not provinding any constructor caller inside a constructor & by
+// defaultly super() as its 1st statement .
 
 class Test12 {
-Test12(){
-    System.out.println("Parent");
-}
+    Test12() {
+        System.out.println("Parent");
+    }
 }
 
 class Test13 extends Test12 {
@@ -222,33 +223,35 @@ class Test13 extends Test12 {
     }
 
     public static void main(String[] args) {
-        Test13 t1=new Test13();
+        Test13 t1 = new Test13();
     }
 }
 
-
-//4. when there is no userdefined constructor then there is a default constructor present & inside that super() is present .
+// 4. when there is no userdefined constructor then there is a default
+// constructor present & inside that super() is present .
 
 class Test14 {
-    Test14(){
+    Test14() {
         System.out.println("abc");
     }
 }
+
 class Test15 extends Test14 {
     public static void main(String[] args) {
-        Test15 t1 =new Test15();
+        Test15 t1 = new Test15();
     }
-} 
+}
 
 // The constructor caller is must be used inside the constructor .
 
-//example :-
+// example :-
 class Test16 {
     Test16(int x) {
         this('a');
         System.out.println("abc");
     }
-    Test16(char ch){
+
+    Test16(char ch) {
         System.out.println("xyz");
     }
 }
@@ -258,19 +261,21 @@ class Test17 extends Test16 {
         this(false);
         System.out.println("def");
     }
+
     Test17(double d) {
         this();
         System.out.println("mno");
     }
-     Test17(boolean b) {
+
+    Test17(boolean b) {
         super(10);
         System.out.println("jkl");
     }
+
     public static void main(String[] args) {
-        Test17 t1=new Test17(10.5);
-        Test16 t2=new Test16('a');
-        Test17 t3=new Test17();
+        Test17 t1 = new Test17(10.5);
+        Test16 t2 = new Test16('a');
+        Test17 t3 = new Test17();
     }
 
 }
-
