@@ -241,3 +241,35 @@ class Test15 extends Test14 {
 } 
 
 // The constructor caller is must be used inside the constructor .
+
+//example :-
+class Test16 {
+    Test16(int x) {
+        this('a');
+        System.out.println("abc");
+    }
+    Test16(char ch){
+        System.out.println("xyz");
+    }
+}
+
+class Test17 extends Test16 {
+    Test17() {
+        this(false);
+        System.out.println("def");
+    }
+    Test17(double d) {
+        this();
+        System.out.println("mno");
+    }
+     Test17(boolean b) {
+        super(10)
+        System.out.println("jkl");
+    }
+    public static void main(String[] args) {
+        Test17 t1=new Test17(10.5);
+        Test16 t2=new Test16('a');
+        Test17 t3=new Test17();
+    }
+
+}
