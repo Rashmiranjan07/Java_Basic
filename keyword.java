@@ -66,3 +66,57 @@ class Test3 extends A04 {
     }
 
 }
+
+
+class A05 {
+    int num4=10;
+}
+class Test4 extends A05 {
+    int num4=20;
+    public void m3() {
+        num4=30;
+        System.err.println(this.num4);//30
+        System.out.println(super.num4);//10
+    }
+    public static void main(String[] args) {
+        Test4 t4=new Test4();
+        t4.m3();
+    }
+}
+
+
+
+class A06 {
+    int num5=10;
+}
+class Test5 extends A06 {
+    int num5=20;
+    public void m4() {
+      this.num5=30;
+      super.num5=40;
+        System.err.println(this.num5);//30
+        System.out.println(super.num5);//40
+    }
+    public static void main(String[] args) {
+        Test5 t4=new Test5();
+        t4.m4();
+    }
+}
+
+
+class A07 {
+    int num6=10;
+}
+class Test6 extends A07 {
+    int num6=20;
+    public void m5(int num6) {
+        num6=40;
+        System.out.println(num6);//40
+        System.out.println(this.num6);//20
+        System.out.println(super.num6);//10
+    }
+    public static void main(String[] args) {
+        Test6 t2=new Test6();
+        t2.m5(30);
+    }
+}
