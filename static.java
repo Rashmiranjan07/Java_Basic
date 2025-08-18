@@ -84,7 +84,7 @@ class B4 {
     }
 }
 
-//
+//if the variables is in RIWO state then we can able to perfrom indirect read .
 
 class B5 {
 
