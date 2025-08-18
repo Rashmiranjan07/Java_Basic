@@ -79,3 +79,22 @@ class B4 {
         
     }
 }
+
+
+
+
+//
+
+class B5 {
+   
+    static {
+       m1();
+    }
+    public static void m1() {
+        System.out.println(x);//0
+    }
+    public static void main(String[] args) {
+        
+    }
+     static int x=10;
+}
