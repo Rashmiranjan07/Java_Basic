@@ -67,3 +67,15 @@ class B3 {
 
 
 //indirect read :-
+class B4 {
+    static int x=10;
+    static {
+       m1();
+    }
+    public static void m1() {
+        System.out.println(x);
+    }
+    public static void main(String[] args) {
+        
+    }
+}
