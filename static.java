@@ -50,3 +50,20 @@ class Test {
     }
     static int y=20;
 }
+
+
+
+//Direct read :-
+class B3 {
+    static int x=10;
+    static {
+        System.out.println(x);
+    }
+    public static void main(String[] args) {
+        
+    }
+}
+
+
+
+//indirect read :-
