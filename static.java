@@ -24,3 +24,29 @@ class B2 {
         System.out.println("static block-2"); // static block -2
     }
 }
+
+
+
+// flow control :-
+class Test {
+    static int x=10;
+    static {
+        m1();
+        System.out.println("SB-1");
+    }
+    public static void m1() {
+        System.out.println(y);
+    }
+    public static void main(String[] args) {
+        m1();
+        System.out.println("ME");
+    }
+    static {
+        m2();
+        System.out.println("SB-2");
+    }
+     public static void m2() {
+        System.out.println(x);
+    }
+    static int y=20;
+}
