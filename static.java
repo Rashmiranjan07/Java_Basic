@@ -84,7 +84,7 @@ class B4 {
     }
 }
 
-//if the variables is in RIWO state then we can able to perfrom indirect read .
+// if the variables is in RIWO state then we can able to perfrom indirect read .
 
 class B5 {
 
@@ -103,16 +103,14 @@ class B5 {
     static int x = 10;
 }
 
-
 // we can call the main method by the help of static block .
-class B6
-{
-	static {
-		main(null);
-	}
-	public static void main(String[]args) {
-		System.out.println("main");   // main
-                                        // main
-	}
-}
+class B6 {
+    static {
+        main(null);
+    }
 
+    public static void main(String[] args) {
+        System.out.println("main"); // main
+                                    // main
+    }
+}
