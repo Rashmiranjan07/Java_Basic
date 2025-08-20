@@ -25,3 +25,17 @@ class Test1 implements B {
         System.out.println(t1.x); //10
     }
 }
+
+
+
+// Write a program to prove the interface variable is bydefaultly final 
+
+// interface C {
+
+//     int x=10;
+// }
+// class Test2{
+//     public static void main(String[] args) {
+//         C.x=20; // CE
+//     }
+// }
