@@ -20,5 +20,8 @@ class Test1 implements B {
         System.out.println(B.x); // 10
         System.out.println(x); // 10
         System.out.println(Test1.x); // 10
+
+        Test1 t1=new Test1();
+        System.out.println(t1.x); //10
     }
 }
