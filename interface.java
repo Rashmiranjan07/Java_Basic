@@ -39,3 +39,24 @@ class Test1 implements B {
 //         C.x=20; // CE
 //     }
 // }
+
+
+
+//pg3:-
+interface C {
+    int x = 10;
+}
+
+class Test2 implements C {
+
+    int x = 20;
+    public static void main(String[] args) {
+
+         Test2 t1=new Test2();
+        System.out.println(t1.x); //20
+
+        System.out.println(C.x); // 10
+       
+       
+    }
+}
