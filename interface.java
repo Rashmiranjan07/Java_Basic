@@ -112,3 +112,12 @@ interface F {
     public void m1(); // by defaultly abstract
 
 }
+
+
+interface G {
+    abstract void m2();   // by defaultyly public
+}
+
+interface H {
+    void m1();
+}
