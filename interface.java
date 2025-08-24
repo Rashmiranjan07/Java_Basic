@@ -97,3 +97,23 @@ class Test4 implements E {
 
     }
 }
+
+
+// interface method :-
+
+// bcoz in this case by defaultly declared as abstract so we can not provide implements /body.
+//  interface F {
+//     public void m2(){
+
+//     }
+
+    
+// }
+
+
+interface F {
+    public void m1();   // by defaultly abstract
+
+}
+
+
