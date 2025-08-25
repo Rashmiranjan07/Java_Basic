@@ -30,5 +30,18 @@ class Test1 {
 
 
 // another way 
+class Test2 {
+
+   // static Test2 t=new Test2();
+    public static Test2 getTest2() {
+        return null;
+    }
+    public static void main(String[] args) {
+        Test2 t2=Test2.getTest2();
+        Test2 t3=Test2.getTest2();
+        System.out.println(t2==t3);
+       
+    }
+}
 
 
