@@ -45,3 +45,18 @@ class Test2 {
 }
 
 
+// another way for understanding :- 
+class Test3 {
+
+    static Test3 t=Test3.getTest3();
+    public static Test3 getTest3() {
+        return t;
+    }
+    public static void main(String[] args) {
+        Test3 t2=Test3.getTest3();
+        Test3 t3=Test3.getTest3();
+        System.out.println(t2==t3);
+        System.out.println(t==t2);
+        System.out.println(t==t3);
+    }
+}
