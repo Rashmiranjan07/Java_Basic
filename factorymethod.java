@@ -63,12 +63,13 @@ class Test3 {
 }
 
 // Singleton class :-
-//If we are allowed to create at most one object of a class , then that class is known as singleton class .
+// If we are allowed to create at most one object of a class , then that class
+// is known as singleton class .
 class Test4 {
 
     static Test4 t = new Test4();
 
-    private Test4(){
+    private Test4() {
 
     }
 
