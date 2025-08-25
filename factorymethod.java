@@ -62,3 +62,24 @@ class Test3 {
     }
 }
 
+// Singleton class :-
+class Test4 {
+
+    static Test4 t = new Test4();
+
+    private Test4(){
+        
+    }
+
+    public static Test4 getTest4() {
+        return t;
+    }
+
+    public static void main(String[] args) {
+        Test4 t2 = Test4.getTest4();
+        Test4 t3 = Test4.getTest4();
+        System.out.println(t2 == t3);
+        System.out.println(t == t2);
+        System.out.println(t == t3);
+    }
+}
