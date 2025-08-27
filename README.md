@@ -1,4 +1,4 @@
-## Java Pttern program
+8## Java Pttern program
 This repository contains a comprehensive collection of Java pattern programs which implemented using loops and conditionals to enhance understanding of core Java concepts.
 It includes the A-Z patterns printing.Small conceptual program.
 
@@ -14,5 +14,3 @@ No fancy structure. No perfect code. Just raw, hands-on Java practice:
 
 Whenever I study something new, I jump into code and push it here — kind of like a learning journal but in Java syntax .
 Daily learning dumps here .
-
-
