@@ -13,3 +13,42 @@ class Test
 	}
 }
 
+// Improper way of overriding hashcode ();-
+// In this case every object will have same hashcode .
+
+class A {
+    public int hashcode()
+    {
+        return 10;
+    }
+    public static void main(String[] args) {
+        A a=new A();
+
+        System.out.println(a.hashcode());
+    }
+}
+
+//proper way of overriding hashcode ();-
+// When each & every object gets a unique hashcode , then it is proper way of overriding hashcode 
+
+class B {
+    int x;
+    public B(int x)
+       {
+        this.x=x;
+       }
+
+       public int hashcode()
+       
+       {
+        return x;
+       }
+    public static void main(String[] args) {
+        B b=new B(10);
+          B b2=new B(20);
+
+
+        System.out.println(b.hashcode());
+         System.out.println(b2.hashcode());
+    }
+}
