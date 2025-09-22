@@ -1,4 +1,4 @@
- // Anynymous object
+ // Anynymous object:-
  
  class Arrays {
     public static void main(String[] args) {
