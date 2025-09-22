@@ -18,7 +18,7 @@ class Arrays {
     }
 }
 
-// WAP to print the array elemnts which is taken by user and array size allso
+// WAP to print the array elemnts which is taken by user and array size also
 class Test {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
