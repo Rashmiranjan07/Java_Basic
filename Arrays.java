@@ -76,3 +76,21 @@ class Test02 {
         return sum;
     }
 }
+
+
+// Using for each loop WAP to sum of all elemnts :-
+class Test03 {
+	public static void main(String[] args) {
+		int res=m1(10,20,30);
+		System.out.println(res);
+	}
+	
+	static int m1(int...a) {
+		int sum=0;
+		for (int temp: a) {
+			sum=sum+ temp;
+		}
+		return sum;
+	}
+
+}
