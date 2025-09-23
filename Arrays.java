@@ -137,3 +137,24 @@ class Test05 {
 	
 }
      */
+
+
+
+// Write a java program to updated an element at given index
+// int a[]-> [2,4,6,1,9,0]
+/* 
+import java.util.Arrays;
+class Test06 {
+	public static void main(String[] args) {
+		int a[]= {2,4,6,1,9,0};
+		System.out.println(Arrays.toString(a));
+		
+		m1(a,3,50);
+		System.out.println(Arrays.toString(a));
+	}
+	static void m1(int a[],int index,int newElemenet) {
+		a[index]=newElemenet;
+	}
+	
+}
+    */
