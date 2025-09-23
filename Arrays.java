@@ -2,7 +2,6 @@
 // Anynymous object:-
 import java.util.Scanner;
 
-
 class Arrays {
     public static void main(String[] args) {
         int[] arr = { 10, 20, 30 };
@@ -121,40 +120,36 @@ class Test04 {
 // In Java, Arrays.toString() is a utility method from the java.util.Arrays
 // class that converts an array into a human-readable string.
 
-
-
 /*
-import java.util.Arrays;
-
-class Test05 {
-	public static void main(String[] args) {
-		int a[]= {10,20,30,40,50};
-		System.out.println(a);
-		
-		String res=Arrays.toString(a);
-		System.out.println(res);
-	}
-	
-}
-     */
-
-
+ * import java.util.Arrays;
+ * 
+ * class Test05 {
+ * public static void main(String[] args) {
+ * int a[]= {10,20,30,40,50};
+ * System.out.println(a);
+ * 
+ * String res=Arrays.toString(a);
+ * System.out.println(res);
+ * }
+ * 
+ * }
+ */
 
 // Write a java program to updated an element at given index
 // int a[]-> [2,4,6,1,9,0]
-/* 
-import java.util.Arrays;
-class Test06 {
-	public static void main(String[] args) {
-		int a[]= {2,4,6,1,9,0};
-		System.out.println(Arrays.toString(a));
-		
-		m1(a,3,50);
-		System.out.println(Arrays.toString(a));
-	}
-	static void m1(int a[],int index,int newElemenet) {
-		a[index]=newElemenet;
-	}
-	
-}
-    */
+/*
+ * import java.util.Arrays;
+ * class Test06 {
+ * public static void main(String[] args) {
+ * int a[]= {2,4,6,1,9,0};
+ * System.out.println(Arrays.toString(a));
+ * 
+ * m1(a,3,50);
+ * System.out.println(Arrays.toString(a));
+ * }
+ * static void m1(int a[],int index,int newElemenet) {
+ * a[index]=newElemenet;
+ * }
+ * 
+ * }
+ */
