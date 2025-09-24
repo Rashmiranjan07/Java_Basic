@@ -2,5 +2,5 @@
 
 # Ignore build folders
 /bin/
-/build/
 /out/
+/target/
