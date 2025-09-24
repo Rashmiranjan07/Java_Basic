@@ -1,0 +1,6 @@
+*.class
+
+# Ignore build folders
+/bin/
+/build/
+/out/
