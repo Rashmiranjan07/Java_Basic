@@ -1,3 +1,5 @@
+////Write a java program to generate a 6 digit OTP using String type ?
+
 package Arrayprogram;
 
 import java.util.Random;
