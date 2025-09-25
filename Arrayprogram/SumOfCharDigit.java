@@ -1,3 +1,5 @@
+// Write a java program to find sum of all digit inside a string 
+
 package Arrayprogram;
 
 public class SumOfCharDigit {
