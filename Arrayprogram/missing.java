@@ -1,4 +1,4 @@
-// Write a java program to find the missing element of an array ?
+// Write a java program to find the missing element of the sequence ?
 
 package Arrayprogram;
 
