@@ -1,3 +1,5 @@
+//Write a java program to create an array of 10 random numbers less than 200 , while among them which one is the prime & which one is not prime ? 
+
 package Arrayprogram;
 
 import java.util.Arrays;
