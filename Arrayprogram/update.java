@@ -1,3 +1,5 @@
+// write a java program to update a valure of an array with new given value ?
+
 package Arrayprogram;
 
 import java.util.Arrays;
