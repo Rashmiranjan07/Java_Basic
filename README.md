@@ -11,5 +11,6 @@ No fancy structure. No perfect code. Just raw, hands-on Java practice:
 
 💻 Learning new concept once at a time .
 
-Whenever I study something new, I jump into code and push it here — kind of like a learning journal but in Java syntax.
+Whenever I study something new, I jump into code and push it here - kind of like a learning journal but in Java syntax.
+
 
